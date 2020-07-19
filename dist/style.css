@@ -111,40 +111,9 @@ main {
     transition: transform var(--transition-speed);
 }
 
-
-
-/* @media only screen and (max-width: 600px) {
-    .navbar {
-        bottom: 0; 
-        height: 80px;
-        width: 100%;
-    }
-
-    .navbar:hover {
-        width: 100%;
-    }
-
-    .navbar-nav {
-        flex-direction: row;
-        justify-items: center;
-    }
-    
-    .nav-link {
-        justify-content: center;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .navbar:hover .link-text {
-        display: none;
-    }
-
-    main {
-        margin: auto;
-    }
-} */
+.navbar:hover .logo svg {
+    transform: rotate(-180deg);
+  }
 
 @media only screen and (max-width: 600px) {
     .navbar {
